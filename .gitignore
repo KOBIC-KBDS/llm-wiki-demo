@@ -1,0 +1,12 @@
+# Keep the public demo PDF-free.
+papers/
+sources/
+*.pdf
+*.pptx
+*.zip
+node_modules/
+_bio/
+_demo_rollback/
+_presentation/
+_extracted/
+*.log

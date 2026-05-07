@@ -1,0 +1,3921 @@
+{
+  "summary": {
+    "total": 49,
+    "held": 0,
+    "with_source": 0,
+    "with_wiki": 49
+  },
+  "categories": [
+    {
+      "slug": "single-cell-foundation",
+      "label": "단일세포",
+      "count": 7
+    },
+    {
+      "slug": "virtual-cell",
+      "label": "가상세포",
+      "count": 7
+    },
+    {
+      "slug": "dna-rna-foundation",
+      "label": "DNA·RNA",
+      "count": 11
+    },
+    {
+      "slug": "protein-foundation",
+      "label": "단백질",
+      "count": 5
+    },
+    {
+      "slug": "medical-foundation",
+      "label": "의료",
+      "count": 5
+    },
+    {
+      "slug": "foundation-perspectives",
+      "label": "Foundation 일반론",
+      "count": 7
+    },
+    {
+      "slug": "spatial-foundation",
+      "label": "공간 전사체",
+      "count": 7
+    }
+  ],
+  "items": [
+    {
+      "collection": "bio-foundation",
+      "id": 2,
+      "year": 2023,
+      "first": "Theodoris CV",
+      "title": "Transfer learning enables predictions in network biology",
+      "display_title": "Transfer learning enables predictions in network biology",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06139-9",
+      "publisher_url": null,
+      "stem": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "category": "single-cell-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "single-cell-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 3,
+      "year": 2024,
+      "first": "Cui H",
+      "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+      "display_title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-024-02201-0",
+      "publisher_url": null,
+      "stem": "cui-2024-scgpt-toward-building-a-foundation",
+      "category": "single-cell-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "single-cell-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 4,
+      "year": 2024,
+      "first": "Hao M",
+      "title": "Large-scale foundation model on single-cell transcriptomics",
+      "display_title": "Large-scale foundation model on single-cell transcriptomics",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-024-02305-7",
+      "publisher_url": null,
+      "stem": "hao-2024-large-scale-foundation-model-on",
+      "category": "single-cell-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "single-cell-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 5,
+      "year": 2024,
+      "first": "Heimberg G",
+      "title": "A cell atlas foundation model for scalable search of similar human cells",
+      "display_title": "A cell atlas foundation model for scalable search of similar human cells",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-024-08411-y",
+      "publisher_url": null,
+      "stem": "heimberg-2024-a-cell-atlas-foundation-model",
+      "category": "single-cell-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "single-cell-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 6,
+      "year": 2024,
+      "first": "Wen H",
+      "title": "CellPLM: Pre-training of cell language model beyond single cells",
+      "display_title": "CellPLM: Pre-training of Cell Language Model Beyond Single Cells",
+      "journal": "ICLR / bioRxiv",
+      "doi": "10.1101/2023.10.03.560734",
+      "publisher_url": null,
+      "stem": "wen-2024-cellplm-pre-training-of-cell",
+      "category": "single-cell-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "single-cell-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 7,
+      "year": 2025,
+      "first": "Boiarsky R",
+      "title": "scTab benchmark for single-cell foundation models",
+      "display_title": "scTab: Scaling cross-tissue single-cell annotation models",
+      "journal": "Nature Communications 2024",
+      "doi": "10.1038/s41467-024-51059-5",
+      "publisher_url": null,
+      "stem": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "category": "single-cell-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "single-cell-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 8,
+      "year": 2025,
+      "first": "Kedzierska KZ",
+      "title": "Assessing the limits of zero-shot foundation models in single-cell biology",
+      "display_title": "Zero-shot evaluation reveals limitations of single-cell foundation models",
+      "journal": "bioRxiv 2025",
+      "doi": "10.1101/2023.10.16.561085",
+      "publisher_url": null,
+      "stem": "kedzierska-2025-assessing-the-limits-of-zero",
+      "category": "single-cell-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "single-cell-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 10,
+      "year": 2024,
+      "first": "Bunne C",
+      "title": "How to build the virtual cell with artificial intelligence: priorities and opportunities",
+      "display_title": "How to build the virtual cell with artificial intelligence: Priorities and opportunities",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2024.11.015",
+      "publisher_url": null,
+      "stem": "bunne-2024-how-to-build-the-virtual",
+      "category": "virtual-cell",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "virtual-cell",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 11,
+      "year": 2023,
+      "first": "Bunne C",
+      "title": "Learning single-cell perturbation responses using neural optimal transport",
+      "display_title": "Learning single-cell perturbation responses using neural optimal transport",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-023-01969-x",
+      "publisher_url": null,
+      "stem": "bunne-2023-learning-single-cell-perturbation-responses",
+      "category": "virtual-cell",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "virtual-cell",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 12,
+      "year": 2024,
+      "first": "Roohani Y",
+      "title": "Predicting transcriptional outcomes of novel multigene perturbations with GEARS",
+      "display_title": "Predicting transcriptional outcomes of novel multigene perturbations with GEARS",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/s41587-023-01905-6",
+      "publisher_url": null,
+      "stem": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "category": "virtual-cell",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "virtual-cell",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 13,
+      "year": 2022,
+      "first": "Replogle JM",
+      "title": "Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq",
+      "display_title": "Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2022.05.013",
+      "publisher_url": null,
+      "stem": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "category": "virtual-cell",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "virtual-cell",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 14,
+      "year": 2025,
+      "first": "Tahoe-100M",
+      "title": "Tahoe-100M: A giga-scale single-cell perturbation atlas of cancer cell lines",
+      "display_title": "Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling",
+      "journal": "bioRxiv 2025",
+      "doi": "10.1101/2025.02.20.639398",
+      "publisher_url": null,
+      "stem": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "category": "virtual-cell",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "virtual-cell",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 15,
+      "year": 2023,
+      "first": "Lotfollahi M",
+      "title": "Mapping single-cell data to reference atlases by transfer learning (scArches)",
+      "display_title": "Mapping single-cell data to reference atlases by transfer learning",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/s41587-021-01001-7",
+      "publisher_url": null,
+      "stem": "lotfollahi-2023-mapping-single-cell-data-to",
+      "category": "virtual-cell",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "virtual-cell",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 16,
+      "year": 2025,
+      "first": "ARC Institute",
+      "title": "Virtual Cell Challenge — community benchmark",
+      "display_title": "Arc Institute Launches Virtual Cell Challenge to Accelerate AI Model Development",
+      "journal": "bioRxiv 2025",
+      "doi": "10.1089/genedge.7.1.082",
+      "publisher_url": null,
+      "stem": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "category": "virtual-cell",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "virtual-cell",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 17,
+      "year": 2021,
+      "first": "Avsec Z",
+      "title": "Effective gene expression prediction from sequence by integrating long-range interactions (Enformer)",
+      "display_title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-021-01252-x",
+      "publisher_url": null,
+      "stem": "avsec-2021-effective-gene-expression-prediction-from",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 18,
+      "year": 2021,
+      "first": "Ji Y",
+      "title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+      "display_title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+      "journal": "Bioinformatics",
+      "doi": "10.1093/bioinformatics/btab083",
+      "publisher_url": null,
+      "stem": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 19,
+      "year": 2023,
+      "first": "Nguyen E",
+      "title": "HyenaDNA: long-range genomic sequence modelling at single nucleotide resolution",
+      "display_title": "HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution",
+      "journal": "NeurIPS / arXiv",
+      "doi": "10.48550/arXiv.2306.15794",
+      "publisher_url": null,
+      "stem": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 20,
+      "year": 2024,
+      "first": "Dalla-Torre H",
+      "title": "Nucleotide Transformer: building and evaluating robust foundation models for human genomics",
+      "display_title": "Nucleotide Transformer: building and evaluating robust foundation models for human genomics",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-024-02523-z",
+      "publisher_url": null,
+      "stem": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 21,
+      "year": 2024,
+      "first": "Schiff Y",
+      "title": "Caduceus: bi-directional equivariant long-range DNA sequence modeling",
+      "display_title": "Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling",
+      "journal": "ICML / arXiv",
+      "doi": "10.48550/arXiv.2403.03234",
+      "publisher_url": null,
+      "stem": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 22,
+      "year": 2025,
+      "first": "Linder J",
+      "title": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation (Borzoi)",
+      "display_title": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation",
+      "journal": "Nature Genetics",
+      "doi": "10.1038/s41588-024-02053-6",
+      "publisher_url": null,
+      "stem": "linder-2025-predicting-rna-seq-coverage-from",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 23,
+      "year": 2024,
+      "first": "Nguyen E",
+      "title": "Sequence modeling and design from molecular to genome scale with Evo",
+      "display_title": "Sequence modeling and design from molecular to genome scale with Evo",
+      "journal": "Science",
+      "doi": "10.1126/science.ado9336",
+      "publisher_url": null,
+      "stem": "nguyen-2024-sequence-modeling-and-design-from",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 24,
+      "year": 2025,
+      "first": "Brixi G",
+      "title": "Genome modeling and design across all domains of life with Evo 2",
+      "display_title": "Genome modeling and design across all domains of life with Evo 2",
+      "journal": "Science / bioRxiv 2025",
+      "doi": "10.1101/2025.02.18.638918",
+      "publisher_url": null,
+      "stem": "brixi-2025-genome-modeling-and-design-across",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 25,
+      "year": 2025,
+      "first": "AlphaGenome",
+      "title": "AlphaGenome: end-to-end genome foundation model",
+      "display_title": "AlphaGenome: advancing regulatory variant effect prediction with a unified DNA sequence model",
+      "journal": "Nature / DeepMind 2025",
+      "doi": "10.1101/2025.08.05.668750",
+      "publisher_url": null,
+      "stem": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 26,
+      "year": 2024,
+      "first": "Chen J",
+      "title": "Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions (RNA-FM)",
+      "display_title": "Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions",
+      "journal": "Nature Methods (or bioRxiv)",
+      "doi": "10.1101/2022.08.06.503062",
+      "publisher_url": null,
+      "stem": "chen-2024-interpretable-rna-foundation-model-from",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 27,
+      "year": 2025,
+      "first": "Penic RJ",
+      "title": "RiNALMo: General-purpose RNA language models can generalize well on structure prediction tasks (UTR-LM line)",
+      "display_title": "RiNALMo: General-Purpose RNA Language Models Can Generalize Well on Structure Prediction Tasks",
+      "journal": "Nature Communications / bioRxiv 2025",
+      "doi": "10.48550/arXiv.2403.00043",
+      "publisher_url": null,
+      "stem": "penic-2025-rinalmo-general-purpose-rna-language",
+      "category": "dna-rna-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "dna-rna-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 28,
+      "year": 2023,
+      "first": "Lin Z",
+      "title": "Evolutionary-scale prediction of atomic-level protein structure (ESM-2 / ESMFold)",
+      "display_title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+      "journal": "Science",
+      "doi": "10.1126/science.ade2574",
+      "publisher_url": null,
+      "stem": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "category": "protein-foundation",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "protein-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 29,
+      "year": 2024,
+      "first": "Abramson J",
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "display_title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-024-07487-w",
+      "publisher_url": null,
+      "stem": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "category": "protein-foundation",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "protein-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 30,
+      "year": 2023,
+      "first": "Watson JL",
+      "title": "De novo design of protein structure and function with RFdiffusion",
+      "display_title": "De novo design of protein structure and function with RFdiffusion",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06415-8",
+      "publisher_url": null,
+      "stem": "watson-2023-de-novo-design-of-protein",
+      "category": "protein-foundation",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "protein-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 31,
+      "year": 2025,
+      "first": "Hayes T",
+      "title": "Simulating 500 million years of evolution with a language model (ESM3)",
+      "display_title": "Simulating 500 million years of evolution with a language model",
+      "journal": "Science",
+      "doi": "10.1126/science.ads0018",
+      "publisher_url": null,
+      "stem": "hayes-2025-simulating-500-million-years-of",
+      "category": "protein-foundation",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "protein-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 32,
+      "year": 2024,
+      "first": "Su J",
+      "title": "SaProt: Protein Language Modeling with Structure-aware Vocabulary",
+      "display_title": "SaProt: Protein Language Modeling with Structure-aware Vocabulary",
+      "journal": "ICLR / bioRxiv",
+      "doi": "10.1101/2023.10.01.560349",
+      "publisher_url": null,
+      "stem": "su-2024-saprot-protein-language-modeling-with",
+      "category": "protein-foundation",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "protein-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 33,
+      "year": 2019,
+      "first": "Topol EJ",
+      "title": "High-performance medicine: the convergence of human and artificial intelligence",
+      "display_title": "High-performance medicine: the convergence of human and artificial intelligence",
+      "journal": "Nature Medicine",
+      "doi": "10.1038/s41591-018-0300-7",
+      "publisher_url": null,
+      "stem": "topol-2019-high-performance-medicine-the-convergence",
+      "category": "medical-foundation",
+      "weight": 2,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "medical-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 34,
+      "year": 2023,
+      "first": "Singhal K",
+      "title": "Towards Expert-Level Medical Question Answering with Large Language Models (Med-PaLM 2)",
+      "display_title": "Large language models encode clinical knowledge",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06291-2",
+      "publisher_url": null,
+      "stem": "singhal-2023-towards-expert-level-medical-question",
+      "category": "medical-foundation",
+      "weight": 2,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "medical-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 35,
+      "year": 2024,
+      "first": "Saab K",
+      "title": "Capabilities of Gemini Models in Medicine (Med-Gemini)",
+      "display_title": "Capabilities of Gemini Models in Medicine",
+      "journal": "arXiv / Nature 2024-25",
+      "doi": "10.48550/arXiv.2404.18416",
+      "publisher_url": null,
+      "stem": "saab-2024-capabilities-of-gemini-models-in",
+      "category": "medical-foundation",
+      "weight": 2,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "medical-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 36,
+      "year": 2025,
+      "first": "Sellergren A",
+      "title": "MedGemma: Open Medical Foundation Models",
+      "display_title": "Enhancing Clinical Decision Support and Patient Communication Using MedGemma and Open Health AI Models",
+      "journal": "Google preprint 2025",
+      "doi": "10.21203/rs.3.rs-8695070/v1",
+      "publisher_url": null,
+      "stem": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "category": "medical-foundation",
+      "weight": 2,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "medical-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 37,
+      "year": 2024,
+      "first": "Lu MY",
+      "title": "A visual-language foundation model for computational pathology (CONCH)",
+      "display_title": "A visual-language foundation model for computational pathology",
+      "journal": "Nature Medicine",
+      "doi": "10.1038/s41591-024-02856-4",
+      "publisher_url": null,
+      "stem": "lu-2024-a-visual-language-foundation-model",
+      "category": "medical-foundation",
+      "weight": 2,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "medical-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 38,
+      "year": 2017,
+      "first": "Vaswani A",
+      "title": "Attention Is All You Need",
+      "display_title": "Attention Is All You Need",
+      "journal": "NeurIPS / arXiv",
+      "doi": "10.48550/arXiv.1706.03762",
+      "publisher_url": null,
+      "stem": "vaswani-2017-attention-is-all-you-need",
+      "category": "foundation-perspectives",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "foundation-perspectives",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 39,
+      "year": 2021,
+      "first": "Bommasani R",
+      "title": "On the Opportunities and Risks of Foundation Models",
+      "display_title": "On the Opportunities and Risks of Foundation Models",
+      "journal": "Stanford preprint / arXiv",
+      "doi": "10.48550/arXiv.2108.07258",
+      "publisher_url": null,
+      "stem": "bommasani-2021-on-the-opportunities-and-risks",
+      "category": "foundation-perspectives",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "foundation-perspectives",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 40,
+      "year": 2023,
+      "first": "Moor M",
+      "title": "Foundation models for generalist medical artificial intelligence",
+      "display_title": "Foundation models for generalist medical artificial intelligence",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-05881-4",
+      "publisher_url": null,
+      "stem": "moor-2023-foundation-models-for-generalist-medical",
+      "category": "foundation-perspectives",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "foundation-perspectives",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 41,
+      "year": 2023,
+      "first": "Wang H",
+      "title": "Scientific discovery in the age of artificial intelligence",
+      "display_title": "Scientific discovery in the age of artificial intelligence",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06221-2",
+      "publisher_url": null,
+      "stem": "wang-2023-scientific-discovery-in-the-age",
+      "category": "foundation-perspectives",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "foundation-perspectives",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 42,
+      "year": 2025,
+      "first": "Theodoris CV",
+      "title": "Foundation models in single-cell biology — perspective",
+      "display_title": "Perspectives on benchmarking foundation models for network biology",
+      "journal": "perspective 2024-25",
+      "doi": "10.1002/qub2.68",
+      "publisher_url": null,
+      "stem": "theodoris-2025-foundation-models-in-single-cell",
+      "category": "foundation-perspectives",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "foundation-perspectives",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 43,
+      "year": 2024,
+      "first": "Cui H",
+      "title": "A survey on the application of foundation models for single-cell omics",
+      "display_title": "Gene Regulatory Network Inference with Joint Representation from Graph Neural Network and Single-Cell Foundation Model (scRegNet)",
+      "journal": "preprint / Nat Methods perspective",
+      "doi": "10.1101/2024.12.16.628715",
+      "publisher_url": null,
+      "stem": "cui-2024-a-survey-on-the-application",
+      "category": "foundation-perspectives",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "foundation-perspectives",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 44,
+      "year": 2024,
+      "first": "Truhn D",
+      "title": "A foundation model for clinical-grade computational pathology and rare cancers (review)",
+      "display_title": "Towards a general-purpose foundation model for computational pathology (UNI)",
+      "journal": "Nature Medicine 2024",
+      "doi": "10.1038/s41591-024-02857-3",
+      "publisher_url": null,
+      "stem": "truhn-2024-a-foundation-model-for-clinical",
+      "category": "foundation-perspectives",
+      "weight": 1,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "foundation-perspectives",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 45,
+      "year": 2021,
+      "first": "Biancalani T",
+      "title": "Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram",
+      "display_title": "Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-021-01264-7",
+      "publisher_url": null,
+      "stem": "biancalani-2021-deep-learning-and-alignment-of",
+      "category": "spatial-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "spatial-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 46,
+      "year": 2024,
+      "first": "Zhang D",
+      "title": "Inferring super-resolution tissue architecture by integrating spatial transcriptomics with histology (iSTAR)",
+      "display_title": "Inferring super-resolution tissue architecture by integrating spatial transcriptomics with histology",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/s41587-023-02019-9",
+      "publisher_url": null,
+      "stem": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "category": "spatial-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "spatial-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 47,
+      "year": 2024,
+      "first": "Jaume G",
+      "title": "HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis",
+      "display_title": "HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis",
+      "journal": "NeurIPS / arXiv",
+      "doi": "10.48550/arXiv.2406.16192",
+      "publisher_url": null,
+      "stem": "jaume-2024-hest-1k-a-dataset-for",
+      "category": "spatial-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "spatial-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 48,
+      "year": 2024,
+      "first": "Varrone M",
+      "title": "CellCharter reveals spatial cell niches associated with tissue remodeling and patient survival",
+      "display_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "journal": "Nature Genetics",
+      "doi": "10.1038/s41588-023-01588-4",
+      "publisher_url": null,
+      "stem": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "category": "spatial-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "spatial-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 49,
+      "year": 2022,
+      "first": "Dong K",
+      "title": "Deciphering spatial domains from spatially resolved transcriptomics with an adaptive graph attention auto-encoder (STAGATE)",
+      "display_title": "Deciphering spatial domains from spatially resolved transcriptomics with an adaptive graph attention auto-encoder",
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-022-29439-6",
+      "publisher_url": null,
+      "stem": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "category": "spatial-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "spatial-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 50,
+      "year": 2025,
+      "first": "Schaar AC",
+      "title": "Nicheformer: a foundation model for single-cell and spatial omics",
+      "display_title": "Nicheformer: a foundation model for single-cell and spatial omics",
+      "journal": "Nature Methods 2025",
+      "doi": "10.1101/2024.04.15.589472",
+      "publisher_url": null,
+      "stem": "schaar-2025-nicheformer-a-foundation-model-for",
+      "category": "spatial-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "spatial-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    },
+    {
+      "collection": "bio-foundation",
+      "id": 51,
+      "year": 2025,
+      "first": "Birk S",
+      "title": "NicheCompass: A method for the integrative analysis of spatial multi-omics data",
+      "display_title": "Quantitative characterization of cell niches in spatially resolved omics data (NicheCompass)",
+      "journal": "Nature Genetics 2025",
+      "doi": "10.1038/s41588-025-02120-6",
+      "publisher_url": null,
+      "stem": "birk-2025-nichecompass-a-method-for-the",
+      "category": "spatial-foundation",
+      "weight": 3,
+      "has_pdf": false,
+      "has_source": false,
+      "has_wiki": true,
+      "wiki_category": "spatial-foundation",
+      "download_status": "not_distributed",
+      "fail_reason": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "avsec-2021-effective-gene-expression-prediction-from",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "brixi-2025-genome-modeling-and-design-across",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "chen-2024-interpretable-rna-foundation-model-from",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "linder-2025-predicting-rna-seq-coverage-from",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "nguyen-2024-sequence-modeling-and-design-from",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "penic-2025-rinalmo-general-purpose-rna-language",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bommasani-2021-on-the-opportunities-and-risks",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bommasani-2021-on-the-opportunities-and-risks",
+      "from_kind": "paper",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bommasani-2021-on-the-opportunities-and-risks",
+      "from_kind": "paper",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bommasani-2021-on-the-opportunities-and-risks",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-a-survey-on-the-application",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-a-survey-on-the-application",
+      "from_kind": "paper",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-a-survey-on-the-application",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-a-survey-on-the-application",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-a-survey-on-the-application",
+      "from_kind": "paper",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-a-survey-on-the-application",
+      "from_kind": "paper",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-a-survey-on-the-application",
+      "from_kind": "paper",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "moor-2023-foundation-models-for-generalist-medical",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "moor-2023-foundation-models-for-generalist-medical",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "moor-2023-foundation-models-for-generalist-medical",
+      "from_kind": "paper",
+      "to": "singhal-2023-towards-expert-level-medical-question",
+      "to_kind": "paper"
+    },
+    {
+      "from": "moor-2023-foundation-models-for-generalist-medical",
+      "from_kind": "paper",
+      "to": "saab-2024-capabilities-of-gemini-models-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "moor-2023-foundation-models-for-generalist-medical",
+      "from_kind": "paper",
+      "to": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "to_kind": "paper"
+    },
+    {
+      "from": "moor-2023-foundation-models-for-generalist-medical",
+      "from_kind": "paper",
+      "to": "lu-2024-a-visual-language-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "moor-2023-foundation-models-for-generalist-medical",
+      "from_kind": "paper",
+      "to": "truhn-2024-a-foundation-model-for-clinical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "heimberg-2024-a-cell-atlas-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2025-foundation-models-in-single-cell",
+      "from_kind": "paper",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from_kind": "paper",
+      "to": "lu-2024-a-visual-language-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from_kind": "paper",
+      "to": "saab-2024-capabilities-of-gemini-models-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from_kind": "paper",
+      "to": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "to_kind": "paper"
+    },
+    {
+      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from_kind": "paper",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from_kind": "paper",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "vaswani-2017-attention-is-all-you-need",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "vaswani-2017-attention-is-all-you-need",
+      "from_kind": "paper",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "vaswani-2017-attention-is-all-you-need",
+      "from_kind": "paper",
+      "to": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "to_kind": "paper"
+    },
+    {
+      "from": "vaswani-2017-attention-is-all-you-need",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "vaswani-2017-attention-is-all-you-need",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wang-2023-scientific-discovery-in-the-age",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wang-2023-scientific-discovery-in-the-age",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wang-2023-scientific-discovery-in-the-age",
+      "from_kind": "paper",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wang-2023-scientific-discovery-in-the-age",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wang-2023-scientific-discovery-in-the-age",
+      "from_kind": "paper",
+      "to": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wang-2023-scientific-discovery-in-the-age",
+      "from_kind": "paper",
+      "to": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wang-2023-scientific-discovery-in-the-age",
+      "from_kind": "paper",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wang-2023-scientific-discovery-in-the-age",
+      "from_kind": "paper",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lu-2024-a-visual-language-foundation-model",
+      "from_kind": "paper",
+      "to": "topol-2019-high-performance-medicine-the-convergence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lu-2024-a-visual-language-foundation-model",
+      "from_kind": "paper",
+      "to": "saab-2024-capabilities-of-gemini-models-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lu-2024-a-visual-language-foundation-model",
+      "from_kind": "paper",
+      "to": "singhal-2023-towards-expert-level-medical-question",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lu-2024-a-visual-language-foundation-model",
+      "from_kind": "paper",
+      "to": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lu-2024-a-visual-language-foundation-model",
+      "from_kind": "paper",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lu-2024-a-visual-language-foundation-model",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "saab-2024-capabilities-of-gemini-models-in",
+      "from_kind": "paper",
+      "to": "singhal-2023-towards-expert-level-medical-question",
+      "to_kind": "paper"
+    },
+    {
+      "from": "saab-2024-capabilities-of-gemini-models-in",
+      "from_kind": "paper",
+      "to": "topol-2019-high-performance-medicine-the-convergence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "saab-2024-capabilities-of-gemini-models-in",
+      "from_kind": "paper",
+      "to": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "to_kind": "paper"
+    },
+    {
+      "from": "saab-2024-capabilities-of-gemini-models-in",
+      "from_kind": "paper",
+      "to": "lu-2024-a-visual-language-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "saab-2024-capabilities-of-gemini-models-in",
+      "from_kind": "paper",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "saab-2024-capabilities-of-gemini-models-in",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "from_kind": "paper",
+      "to": "singhal-2023-towards-expert-level-medical-question",
+      "to_kind": "paper"
+    },
+    {
+      "from": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "from_kind": "paper",
+      "to": "saab-2024-capabilities-of-gemini-models-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "from_kind": "paper",
+      "to": "topol-2019-high-performance-medicine-the-convergence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "from_kind": "paper",
+      "to": "lu-2024-a-visual-language-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "from_kind": "paper",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "singhal-2023-towards-expert-level-medical-question",
+      "from_kind": "paper",
+      "to": "topol-2019-high-performance-medicine-the-convergence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "singhal-2023-towards-expert-level-medical-question",
+      "from_kind": "paper",
+      "to": "saab-2024-capabilities-of-gemini-models-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "singhal-2023-towards-expert-level-medical-question",
+      "from_kind": "paper",
+      "to": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "to_kind": "paper"
+    },
+    {
+      "from": "singhal-2023-towards-expert-level-medical-question",
+      "from_kind": "paper",
+      "to": "lu-2024-a-visual-language-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "singhal-2023-towards-expert-level-medical-question",
+      "from_kind": "paper",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "singhal-2023-towards-expert-level-medical-question",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "topol-2019-high-performance-medicine-the-convergence",
+      "from_kind": "paper",
+      "to": "singhal-2023-towards-expert-level-medical-question",
+      "to_kind": "paper"
+    },
+    {
+      "from": "topol-2019-high-performance-medicine-the-convergence",
+      "from_kind": "paper",
+      "to": "saab-2024-capabilities-of-gemini-models-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "topol-2019-high-performance-medicine-the-convergence",
+      "from_kind": "paper",
+      "to": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "to_kind": "paper"
+    },
+    {
+      "from": "topol-2019-high-performance-medicine-the-convergence",
+      "from_kind": "paper",
+      "to": "lu-2024-a-visual-language-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "topol-2019-high-performance-medicine-the-convergence",
+      "from_kind": "paper",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "topol-2019-high-performance-medicine-the-convergence",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "from_kind": "paper",
+      "to": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "to_kind": "paper"
+    },
+    {
+      "from": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "from_kind": "paper",
+      "to": "watson-2023-de-novo-design-of-protein",
+      "to_kind": "paper"
+    },
+    {
+      "from": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "from_kind": "paper",
+      "to": "hayes-2025-simulating-500-million-years-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "from_kind": "paper",
+      "to": "su-2024-saprot-protein-language-modeling-with",
+      "to_kind": "paper"
+    },
+    {
+      "from": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "from_kind": "paper",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hayes-2025-simulating-500-million-years-of",
+      "from_kind": "paper",
+      "to": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hayes-2025-simulating-500-million-years-of",
+      "from_kind": "paper",
+      "to": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hayes-2025-simulating-500-million-years-of",
+      "from_kind": "paper",
+      "to": "watson-2023-de-novo-design-of-protein",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hayes-2025-simulating-500-million-years-of",
+      "from_kind": "paper",
+      "to": "su-2024-saprot-protein-language-modeling-with",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hayes-2025-simulating-500-million-years-of",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hayes-2025-simulating-500-million-years-of",
+      "from_kind": "paper",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "from_kind": "paper",
+      "to": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "from_kind": "paper",
+      "to": "hayes-2025-simulating-500-million-years-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "from_kind": "paper",
+      "to": "su-2024-saprot-protein-language-modeling-with",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "from_kind": "paper",
+      "to": "watson-2023-de-novo-design-of-protein",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "from_kind": "paper",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "su-2024-saprot-protein-language-modeling-with",
+      "from_kind": "paper",
+      "to": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "to_kind": "paper"
+    },
+    {
+      "from": "su-2024-saprot-protein-language-modeling-with",
+      "from_kind": "paper",
+      "to": "hayes-2025-simulating-500-million-years-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "su-2024-saprot-protein-language-modeling-with",
+      "from_kind": "paper",
+      "to": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "to_kind": "paper"
+    },
+    {
+      "from": "su-2024-saprot-protein-language-modeling-with",
+      "from_kind": "paper",
+      "to": "watson-2023-de-novo-design-of-protein",
+      "to_kind": "paper"
+    },
+    {
+      "from": "su-2024-saprot-protein-language-modeling-with",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "su-2024-saprot-protein-language-modeling-with",
+      "from_kind": "paper",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "watson-2023-de-novo-design-of-protein",
+      "from_kind": "paper",
+      "to": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "to_kind": "paper"
+    },
+    {
+      "from": "watson-2023-de-novo-design-of-protein",
+      "from_kind": "paper",
+      "to": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "to_kind": "paper"
+    },
+    {
+      "from": "watson-2023-de-novo-design-of-protein",
+      "from_kind": "paper",
+      "to": "hayes-2025-simulating-500-million-years-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "watson-2023-de-novo-design-of-protein",
+      "from_kind": "paper",
+      "to": "su-2024-saprot-protein-language-modeling-with",
+      "to_kind": "paper"
+    },
+    {
+      "from": "watson-2023-de-novo-design-of-protein",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "watson-2023-de-novo-design-of-protein",
+      "from_kind": "paper",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "heimberg-2024-a-cell-atlas-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "wen-2024-cellplm-pre-training-of-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "heimberg-2024-a-cell-atlas-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "wen-2024-cellplm-pre-training-of-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "cui-2024-scgpt-toward-building-a-foundation",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "heimberg-2024-a-cell-atlas-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "wen-2024-cellplm-pre-training-of-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "hao-2024-large-scale-foundation-model-on",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "wen-2024-cellplm-pre-training-of-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "heimberg-2024-a-cell-atlas-foundation-model",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "heimberg-2024-a-cell-atlas-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "wen-2024-cellplm-pre-training-of-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "kedzierska-2025-assessing-the-limits-of-zero",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "heimberg-2024-a-cell-atlas-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "wen-2024-cellplm-pre-training-of-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "heimberg-2024-a-cell-atlas-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "wen-2024-cellplm-pre-training-of-cell",
+      "from_kind": "paper",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "biancalani-2021-deep-learning-and-alignment-of",
+      "from_kind": "paper",
+      "to": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "to_kind": "paper"
+    },
+    {
+      "from": "biancalani-2021-deep-learning-and-alignment-of",
+      "from_kind": "paper",
+      "to": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "to_kind": "paper"
+    },
+    {
+      "from": "biancalani-2021-deep-learning-and-alignment-of",
+      "from_kind": "paper",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "biancalani-2021-deep-learning-and-alignment-of",
+      "from_kind": "paper",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "biancalani-2021-deep-learning-and-alignment-of",
+      "from_kind": "paper",
+      "to": "birk-2025-nichecompass-a-method-for-the",
+      "to_kind": "paper"
+    },
+    {
+      "from": "biancalani-2021-deep-learning-and-alignment-of",
+      "from_kind": "paper",
+      "to": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "to_kind": "paper"
+    },
+    {
+      "from": "biancalani-2021-deep-learning-and-alignment-of",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "biancalani-2021-deep-learning-and-alignment-of",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "birk-2025-nichecompass-a-method-for-the",
+      "from_kind": "paper",
+      "to": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "to_kind": "paper"
+    },
+    {
+      "from": "birk-2025-nichecompass-a-method-for-the",
+      "from_kind": "paper",
+      "to": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "to_kind": "paper"
+    },
+    {
+      "from": "birk-2025-nichecompass-a-method-for-the",
+      "from_kind": "paper",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "birk-2025-nichecompass-a-method-for-the",
+      "from_kind": "paper",
+      "to": "biancalani-2021-deep-learning-and-alignment-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "birk-2025-nichecompass-a-method-for-the",
+      "from_kind": "paper",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "birk-2025-nichecompass-a-method-for-the",
+      "from_kind": "paper",
+      "to": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "to_kind": "paper"
+    },
+    {
+      "from": "birk-2025-nichecompass-a-method-for-the",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "birk-2025-nichecompass-a-method-for-the",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "from_kind": "paper",
+      "to": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "from_kind": "paper",
+      "to": "birk-2025-nichecompass-a-method-for-the",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "from_kind": "paper",
+      "to": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "from_kind": "paper",
+      "to": "biancalani-2021-deep-learning-and-alignment-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "from_kind": "paper",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "from_kind": "paper",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "biancalani-2021-deep-learning-and-alignment-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "lu-2024-a-visual-language-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "birk-2025-nichecompass-a-method-for-the",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "jaume-2024-hest-1k-a-dataset-for",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "wen-2024-cellplm-pre-training-of-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "birk-2025-nichecompass-a-method-for-the",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "biancalani-2021-deep-learning-and-alignment-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "to_kind": "paper"
+    },
+    {
+      "from": "schaar-2025-nicheformer-a-foundation-model-for",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "from_kind": "paper",
+      "to": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "to_kind": "paper"
+    },
+    {
+      "from": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "from_kind": "paper",
+      "to": "birk-2025-nichecompass-a-method-for-the",
+      "to_kind": "paper"
+    },
+    {
+      "from": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "from_kind": "paper",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "from_kind": "paper",
+      "to": "biancalani-2021-deep-learning-and-alignment-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "from_kind": "paper",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "from_kind": "paper",
+      "to": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "to_kind": "paper"
+    },
+    {
+      "from": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "from_kind": "paper",
+      "to": "biancalani-2021-deep-learning-and-alignment-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "from_kind": "paper",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "from_kind": "paper",
+      "to": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "to_kind": "paper"
+    },
+    {
+      "from": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "from_kind": "paper",
+      "to": "birk-2025-nichecompass-a-method-for-the",
+      "to_kind": "paper"
+    },
+    {
+      "from": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "from_kind": "paper",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "from_kind": "paper",
+      "to": "varrone-2024-cellcharter-reveals-spatial-cell-niches",
+      "to_kind": "paper"
+    },
+    {
+      "from": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "bunne-2024-how-to-build-the-virtual",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "bunne-2023-learning-single-cell-perturbation-responses",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "lotfollahi-2023-mapping-single-cell-data-to",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "bunne-2024-how-to-build-the-virtual",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "lotfollahi-2023-mapping-single-cell-data-to",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2023-learning-single-cell-perturbation-responses",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "bunne-2023-learning-single-cell-perturbation-responses",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "lotfollahi-2023-mapping-single-cell-data-to",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bunne-2024-how-to-build-the-virtual",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "bunne-2024-how-to-build-the-virtual",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "bunne-2023-learning-single-cell-perturbation-responses",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "lotfollahi-2023-mapping-single-cell-data-to",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "bunne-2024-how-to-build-the-virtual",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "bunne-2023-learning-single-cell-perturbation-responses",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "lotfollahi-2023-mapping-single-cell-data-to",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "bunne-2024-how-to-build-the-virtual",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "bunne-2023-learning-single-cell-perturbation-responses",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "lotfollahi-2023-mapping-single-cell-data-to",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "bunne-2024-how-to-build-the-virtual",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "bunne-2023-learning-single-cell-perturbation-responses",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "lotfollahi-2023-mapping-single-cell-data-to",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "from_kind": "paper",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    }
+  ],
+  "overviews": [
+    {
+      "slug": "bio-foundation-flow",
+      "label": "생명과학 기반모델 흐름 — 7개 축으로 보는 49편"
+    },
+    {
+      "slug": "virtual-cell-flow",
+      "label": "가상세포 흐름 — 자극, 반응 예측, 검증"
+    }
+  ],
+  "overview_edges": [
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "vaswani-2017-attention-is-all-you-need",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "bommasani-2021-on-the-opportunities-and-risks",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "avsec-2021-effective-gene-expression-prediction-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "alphagenome-2025-alphagenome-end-to-end-genome",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "bunne-2024-how-to-build-the-virtual",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "biancalani-2021-deep-learning-and-alignment-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "dong-2022-deciphering-spatial-domains-from-spatially",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "lin-2023-evolutionary-scale-prediction-of-atomic",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "hayes-2025-simulating-500-million-years-of",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "singhal-2023-towards-expert-level-medical-question",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "lu-2024-a-visual-language-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "virtual-cell-flow",
+      "to_kind": "overview"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "ji-2021-dnabert-pre-trained-bidirectional-encoder",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "dalla-2024-nucleotide-transformer-building-and-evaluating",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "saab-2024-capabilities-of-gemini-models-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "nguyen-2023-hyenadna-long-range-genomic-sequence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "schiff-2024-caduceus-bi-directional-equivariant-long",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "nguyen-2024-sequence-modeling-and-design-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "brixi-2025-genome-modeling-and-design-across",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "linder-2025-predicting-rna-seq-coverage-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "chen-2024-interpretable-rna-foundation-model-from",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "penic-2025-rinalmo-general-purpose-rna-language",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "heimberg-2024-a-cell-atlas-foundation-model",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "wen-2024-cellplm-pre-training-of-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "bunne-2023-learning-single-cell-perturbation-responses",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "lotfollahi-2023-mapping-single-cell-data-to",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "birk-2025-nichecompass-a-method-for-the",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "abramson-2024-accurate-structure-prediction-of-biomolecular",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "watson-2023-de-novo-design-of-protein",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "su-2024-saprot-protein-language-modeling-with",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "topol-2019-high-performance-medicine-the-convergence",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "sellergren-2025-medgemma-open-medical-foundation-models",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "moor-2023-foundation-models-for-generalist-medical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "truhn-2024-a-foundation-model-for-clinical",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "wang-2023-scientific-discovery-in-the-age",
+      "to_kind": "paper"
+    },
+    {
+      "from": "bio-foundation-flow",
+      "from_kind": "overview",
+      "to": "cui-2024-a-survey-on-the-application",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "bunne-2024-how-to-build-the-virtual",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "replogle-2022-mapping-information-rich-genotype-phenotype",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "tahoe-2025-tahoe-100m-a-giga-scale",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "lotfollahi-2023-mapping-single-cell-data-to",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "bunne-2023-learning-single-cell-perturbation-responses",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "roohani-2024-predicting-transcriptional-outcomes-of-novel",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "arc-2025-virtual-cell-challenge-community-benchmark",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "theodoris-2023-transfer-learning-enables-predictions-in",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "cui-2024-scgpt-toward-building-a-foundation",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "hao-2024-large-scale-foundation-model-on",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "kedzierska-2025-assessing-the-limits-of-zero",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "theodoris-2025-foundation-models-in-single-cell",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "schaar-2025-nicheformer-a-foundation-model-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "birk-2025-nichecompass-a-method-for-the",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "zhang-2024-inferring-super-resolution-tissue-architecture",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "jaume-2024-hest-1k-a-dataset-for",
+      "to_kind": "paper"
+    },
+    {
+      "from": "virtual-cell-flow",
+      "from_kind": "overview",
+      "to": "bio-foundation-flow",
+      "to_kind": "overview"
+    }
+  ]
+}

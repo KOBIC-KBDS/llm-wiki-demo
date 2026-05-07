@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bukyung Wiki</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161922;
+    --panel-2: #1d2230;
+    --border: #2a3142;
+    --text: #e7eaf3;
+    --muted: #8a93a8;
+    --accent: #7c9eff;
+    --accent-2: #b693ff;
+    --ok: #5dd3a8;
+    --warn: #f0b97a;
+    --bad: #ef6b7c;
+    --shadow: 0 4px 24px rgba(0,0,0,.35);
+    --cat-overview: #ffd166;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --panel-2: #f0f3f9;
+      --border: #e2e6ef;
+      --text: #1a1f2c;
+      --muted: #5a6275;
+      --accent: #3961d1;
+      --accent-2: #6b46c1;
+      --ok: #1b9b6d;
+      --warn: #b87a1f;
+      --bad: #c44052;
+      --shadow: 0 4px 18px rgba(20,30,60,.08);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    min-height: 100vh;
+  }
+  header.site {
+    padding: 22px 28px 12px;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, var(--panel) 0%, var(--bg) 100%);
+  }
+  header.site h1 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+  }
+  header.site .sub { color: var(--muted); font-size: 13.5px; }
+  .stats {
+    display: flex; gap: 24px; margin-top: 10px; flex-wrap: wrap;
+  }
+  .stat { display: flex; gap: 8px; align-items: baseline; }
+  .stat .n { font-size: 22px; font-weight: 600; color: var(--accent); }
+  .stat .l { font-size: 13px; color: var(--muted); }
+
+  .view-tabs {
+    padding: 10px 28px 0;
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+  .view-tabs button {
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    color: var(--muted);
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+  }
+  .view-tabs button.active {
+    color: var(--text);
+    border-bottom-color: var(--accent);
+  }
+
+  .toolbar {
+    padding: 12px 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+  }
+  .search {
+    flex: 1; min-width: 220px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: var(--text);
+    font-size: 14px;
+    outline: none;
+  }
+  .search:focus { border-color: var(--accent); }
+  .toggle {
+    display: flex; gap: 6px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 4px;
+  }
+  .toggle button {
+    background: transparent;
+    border: none;
+    padding: 6px 12px;
+    color: var(--muted);
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .toggle button.active {
+    background: var(--accent);
+    color: white;
+  }
+  .filters {
+    padding: 10px 28px;
+    display: flex; flex-wrap: wrap; gap: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .chip {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 5px 12px;
+    font-size: 12.5px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .chip.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+  .chip .c {
+    margin-left: 6px;
+    opacity: 0.7;
+    font-variant-numeric: tabular-nums;
+  }
+
+  main { padding: 24px 28px 60px; }
+  .year-group { margin-bottom: 28px; }
+  .year-group h2 {
+    font-size: 15px;
+    color: var(--muted);
+    margin: 0 0 12px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: border-color .15s, transform .12s;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  .card:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+  .card .row1 { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .card .badge {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--panel-2);
+    color: var(--muted);
+  }
+  .card .badge.held { background: rgba(93,211,168,.16); color: var(--ok); }
+  .card .badge.has-wiki { background: rgba(124,158,255,.18); color: var(--accent); }
+  .card .badge.has-source { background: rgba(182,147,255,.18); color: var(--accent-2); }
+  .card .title {
+    font-size: 14.5px;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+  .card .meta {
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+  .card .journal {
+    font-style: italic;
+    color: var(--text);
+    opacity: 0.85;
+  }
+
+  /* Overview cards */
+  .overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .overview-card {
+    background: linear-gradient(135deg, var(--panel) 0%, var(--panel-2) 100%);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--cat-overview);
+    border-radius: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+  }
+  .overview-card:hover { border-color: var(--accent); }
+  .overview-card .ov-title { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+  .overview-card .ov-sub { font-size: 12.5px; color: var(--muted); }
+
+  /* Graph view */
+  #graph-view { display: none; padding: 0; }
+  #graph-view.active { display: block; }
+  #network {
+    width: 100%;
+    height: calc(100vh - 200px);
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+  }
+  .graph-controls {
+    padding: 12px 28px;
+    display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .graph-controls .legend { display: flex; gap: 14px; flex-wrap: wrap; }
+  .graph-controls .lg { display: flex; gap: 6px; align-items: center; }
+  .graph-controls .lg span.dot {
+    width: 10px; height: 10px; border-radius: 50%; display: inline-block;
+  }
+
+  /* Detail pane */
+  .pane-bg {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,.55);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s;
+    z-index: 50;
+  }
+  .pane-bg.open { opacity: 1; pointer-events: auto; }
+  .pane {
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    width: min(760px, 100%);
+    background: var(--panel);
+    border-left: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    transform: translateX(100%);
+    transition: transform .25s ease;
+    z-index: 60;
+    overflow-y: auto;
+    padding: 28px 28px 60px;
+  }
+  .pane.open { transform: translateX(0); }
+  .pane h1 { font-size: 19px; margin: 0 0 6px; line-height: 1.3; }
+  .pane .pane-meta { color: var(--muted); font-size: 13px; margin-bottom: 14px; }
+  .pane .links { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .pane .links a {
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 13px;
+    background: var(--panel-2);
+  }
+  .pane .links a:hover { border-color: var(--accent); }
+  .pane .close {
+    position: absolute; top: 16px; right: 18px;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    width: 32px; height: 32px;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .pane .empty {
+    color: var(--muted);
+    background: var(--panel-2);
+    border: 1px dashed var(--border);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 13.5px;
+  }
+  .pane .md {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 10px;
+  }
+  .pane .md h1 { font-size: 17px; margin: 14px 0 8px; }
+  .pane .md h2 { font-size: 15px; margin: 14px 0 6px; color: var(--accent); }
+  .pane .md h3 { font-size: 13.5px; margin: 12px 0 4px; }
+  .pane .md p { font-size: 13.5px; margin: 6px 0; }
+  .pane .md ul, .pane .md ol { font-size: 13.3px; padding-left: 22px; }
+  .pane .md li { margin: 3px 0; }
+  .pane .md code {
+    background: var(--bg);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 12.5px;
+  }
+  .pane .md table {
+    border-collapse: collapse; width: 100%; font-size: 12.8px; margin: 8px 0;
+  }
+  .pane .md th, .pane .md td {
+    border: 1px solid var(--border);
+    padding: 5px 8px;
+    text-align: left;
+  }
+  .pane .md th { background: var(--panel); }
+  .pane .md a { color: var(--accent); }
+  .pane .md a.wikilink {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--accent);
+    cursor: pointer;
+  }
+  .pane .md a.wikilink:hover { background: rgba(124,158,255,.1); }
+  .pane .md a.wikilink.broken {
+    color: var(--muted);
+    border-bottom: 1px dashed var(--muted);
+    cursor: not-allowed;
+  }
+  .pane .md .demo-added {
+    border-left: 4px solid var(--bad);
+    background: color-mix(in srgb, var(--bad) 13%, transparent);
+    padding: 10px 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  .pane .md .demo-added strong,
+  .pane .md .demo-added h2,
+  .pane .md .demo-added h3 {
+    color: var(--bad);
+  }
+  .pane .section-tab {
+    display: flex; gap: 4px; margin-top: 18px;
+    border-bottom: 1px solid var(--border);
+  }
+  .pane .section-tab button {
+    background: transparent;
+    border: none;
+    padding: 8px 14px;
+    color: var(--muted);
+    font-size: 13.5px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  .pane .section-tab button.active {
+    color: var(--text);
+    border-bottom-color: var(--accent);
+  }
+  .obsidian-banner {
+    margin: 0 28px 0;
+    padding: 10px 14px;
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent-2);
+    border-radius: 8px;
+    font-size: 12.8px;
+    color: var(--muted);
+  }
+  .obsidian-banner b { color: var(--text); }
+  .obsidian-banner code {
+    background: var(--bg); padding: 1px 6px; border-radius: 4px;
+    font-size: 12.3px;
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <h1>Bukyung Wiki</h1>
+  <div class="sub">A personal LLM-readable research wiki for grounded retrieval, demos, and compounding notes.</div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="view-tabs">
+  <button id="tab-list" class="active">📚 List</button>
+  <button id="tab-graph">🕸 Graph</button>
+</div>
+
+<div id="list-view">
+  <div class="toolbar">
+    <input id="q" class="search" placeholder="🔍 제목, 저자, 학술지로 검색…" />
+    <div class="toggle" id="note-toggle">
+      <button data-v="all" class="active">모두</button>
+      <button data-v="wiki">Wiki 있음</button>
+      <button data-v="source">Source 있음</button>
+    </div>
+  </div>
+
+  <div class="filters" id="cats"></div>
+
+  <main id="grid">
+    <div class="overview-grid" id="overviews-grid"></div>
+    <div id="papers-area"></div>
+  </main>
+</div>
+
+<div id="graph-view">
+  <div class="graph-controls">
+    <div class="legend" id="legend"></div>
+    <div style="margin-left:auto"><label><input type="checkbox" id="show-overviews" checked /> overview 노드 포함</label></div>
+  </div>
+  <div id="network"></div>
+</div>
+
+<div class="pane-bg" id="paneBg"></div>
+<aside class="pane" id="pane">
+  <button class="close" id="paneClose">×</button>
+  <div id="paneBody"></div>
+</aside>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<script>
+const CATEGORY_PALETTE = [
+  '#14b8a6', '#22c55e', '#533afd', '#f97316', '#ec4899',
+  '#6366f1', '#06b6d4', '#f0b97a', '#7c9eff', '#ef6b7c',
+  '#5dd3a8', '#b693ff', '#8a93a8',
+];
+const OVERVIEW_COLOR = getComputedStyle(document.documentElement).getPropertyValue('--cat-overview').trim();
+
+function categoryColor(slug) {
+  if (slug === 'overview') return OVERVIEW_COLOR;
+  let h = 0;
+  for (const ch of String(slug)) h = ((h << 5) - h + ch.charCodeAt(0)) | 0;
+  return CATEGORY_PALETTE[Math.abs(h) % CATEGORY_PALETTE.length];
+}
+
+function itemKey(it) {
+  return `${it.collection || 'default'}:${it.id}`;
+}
+
+function overviewText(slug) {
+  const ov = state.data ? (state.data.overviews || []).find(o => o.slug === slug) : null;
+  const title = ov ? ov.label : slug.replace(/-/g, ' ');
+  return [title, 'overview'];
+}
+
+const state = {
+  data: null,
+  q: '',
+  note: 'all',
+  cat: null,
+  view: 'list',
+  network: null,
+  showOverviewsInGraph: true,
+};
+
+async function loadData() {
+  const r = await fetch('_data.json');
+  state.data = await r.json();
+  renderStats();
+  renderCats();
+  renderLegend();
+  renderOverviews();
+  renderGrid();
+}
+
+function renderStats() {
+  const s = state.data.summary;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><span class="n">${s.held}</span><span class="l">/ ${s.total} PDF held</span></div>
+    <div class="stat"><span class="n">${s.with_wiki}</span><span class="l">wiki notes</span></div>
+    <div class="stat"><span class="n">${s.with_source}</span><span class="l">source summaries</span></div>
+    <div class="stat"><span class="n">${(state.data.edges || []).length}</span><span class="l">cross-links</span></div>
+  `;
+}
+
+function renderCats() {
+  const el = document.getElementById('cats');
+  const all = `<span class="chip ${state.cat === null ? 'active' : ''}" data-cat="">All<span class="c">${state.data.summary.total}</span></span>`;
+  const cats = state.data.categories.map(c =>
+    `<span class="chip ${state.cat === c.slug ? 'active' : ''}" data-cat="${c.slug}">${c.label}<span class="c">${c.count}</span></span>`
+  ).join('');
+  el.innerHTML = all + cats;
+  el.querySelectorAll('.chip').forEach(ch => {
+    ch.onclick = () => { state.cat = ch.dataset.cat || null; renderCats(); renderGrid(); };
+  });
+}
+
+function renderLegend() {
+  const el = document.getElementById('legend');
+  const cats = (state.data.categories || []).map(c =>
+    `<span class="lg"><span class="dot" style="background:${categoryColor(c.slug)}"></span> ${escapeHtml(c.label)}</span>`
+  );
+  cats.push(`<span class="lg"><span class="dot" style="background:${OVERVIEW_COLOR};box-shadow:0 0 0 2px ${OVERVIEW_COLOR}"></span> overview</span>`);
+  el.innerHTML = cats.join('');
+}
+
+function renderOverviews() {
+  const el = document.getElementById('overviews-grid');
+  const ovs = (state.data.overviews || []);
+  el.innerHTML = ovs.map(ov => {
+    const [t, s] = overviewText(ov.slug);
+    return `<div class="overview-card" data-ov="${ov.slug}">
+      <div class="ov-title">📋 ${t}</div>
+      <div class="ov-sub">${s}</div>
+    </div>`;
+  }).join('');
+  el.querySelectorAll('.overview-card').forEach(c => {
+    c.onclick = () => openOverview(c.dataset.ov);
+  });
+}
+
+function passes(item) {
+  if (state.cat && item.category !== state.cat) return false;
+  if (state.note === 'wiki' && !item.has_wiki) return false;
+  if (state.note === 'source' && !item.has_source) return false;
+  if (state.q) {
+    const q = state.q.toLowerCase();
+    const hay = [
+      item.title,
+      item.display_title,
+      item.first,
+      item.journal,
+      item.stem,
+      item.doi,
+      item.category,
+      item.collection,
+    ].join(' ').toLowerCase();
+    if (!hay.includes(q)) return false;
+  }
+  return true;
+}
+
+function renderGrid() {
+  const items = state.data.items.filter(passes);
+  const byYear = {};
+  for (const it of items) (byYear[it.year] = byYear[it.year] || []).push(it);
+  const years = Object.keys(byYear).sort((a, b) => b - a);
+  const out = years.map(y => {
+    const cards = byYear[y].map(it => cardHTML(it)).join('');
+    return `<section class="year-group"><h2>${y}  ·  ${byYear[y].length}편</h2><div class="grid">${cards}</div></section>`;
+  }).join('');
+  document.getElementById('papers-area').innerHTML = out || '<div style="color:var(--muted);padding:40px;text-align:center">조건에 맞는 논문이 없습니다.</div>';
+  document.querySelectorAll('.card').forEach(c => {
+    c.onclick = () => openPane(c.dataset.key);
+  });
+}
+
+function cardHTML(it) {
+  const heldBadge = it.has_pdf ? `<span class="badge held">PDF</span>` : '';
+  const wikiBadge = it.has_wiki ? `<span class="badge has-wiki">Wiki</span>` : '';
+  const srcBadge = it.has_source ? `<span class="badge has-source">Source</span>` : '';
+  const catLabel = (state.data.categories.find(c => c.slug === it.category) || {label: it.category}).label;
+  return `
+    <div class="card" data-key="${itemKey(it)}">
+      <div class="row1">
+        <span class="badge">${catLabel}</span>
+        ${heldBadge}${wikiBadge}${srcBadge}
+      </div>
+      <div class="title">${escapeHtml(it.display_title || it.title)}</div>
+      <div class="meta">${escapeHtml(it.first)} · <span class="journal">${escapeHtml(it.journal)}</span> · ${it.year}</div>
+    </div>`;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+// ---- detail pane ----
+
+async function openPane(key) {
+  const it = state.data.items.find(x => itemKey(x) === key);
+  if (!it) return;
+  const links = [];
+  if (it.has_pdf) links.push(`<a href="papers/${it.stem}.pdf" target="_blank" rel="noopener">📄 PDF</a>`);
+  if (it.publisher_url) links.push(`<a href="${it.publisher_url}" target="_blank" rel="noopener">🔗 학술지</a>`);
+
+  const head = `
+    <h1>${escapeHtml(it.display_title || it.title)}</h1>
+    <div class="pane-meta">${escapeHtml(it.first)} · <em>${escapeHtml(it.journal)}</em> · ${it.year}</div>
+    <div class="links">${links.join('')}</div>
+  `;
+
+  const body = document.getElementById('paneBody');
+  body.innerHTML = head + `<div id="paneContent"></div>`;
+
+  let wikiMd = '', sourceMd = '';
+  if (it.has_wiki) {
+    const r = await fetch(`wiki/${it.wiki_category}/${it.stem}.md`);
+    if (r.ok) wikiMd = await r.text();
+  }
+  if (it.has_source) {
+    const r = await fetch(`sources/${it.stem}.md`);
+    if (r.ok) sourceMd = await r.text();
+  }
+
+  const tabs = [];
+  if (wikiMd) tabs.push({label: '📝 Wiki (한글 정리)', md: wikiMd, key: 'wiki'});
+  if (sourceMd) tabs.push({label: '📋 Source (LLM 영문 요약)', md: sourceMd, key: 'source'});
+
+  const content = document.getElementById('paneContent');
+  if (tabs.length === 0) {
+    content.innerHTML = `<div class="empty">아직 wiki 또는 source 노트가 작성되지 않은 논문입니다.</div>`;
+    openPaneShow();
+    return;
+  }
+
+  const tabBar = `<div class="section-tab">${tabs.map((t, i) => `<button class="${i===0?'active':''}" data-i="${i}">${t.label}</button>`).join('')}</div>`;
+  content.innerHTML = tabBar + tabs.map((t, i) => `<div class="md" data-i="${i}" style="display:${i===0?'block':'none'}">${stripFrontmatterAndRender(t.md)}</div>`).join('');
+  content.querySelectorAll('.section-tab button').forEach(b => {
+    b.onclick = () => {
+      content.querySelectorAll('.section-tab button').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      const i = b.dataset.i;
+      content.querySelectorAll('.md').forEach(d => d.style.display = (d.dataset.i === i) ? 'block' : 'none');
+    };
+  });
+  openPaneShow();
+}
+
+async function openOverview(slug) {
+  const r = await fetch(`wiki/overviews/${slug}.md`);
+  const md = r.ok ? await r.text() : '';
+  const body = document.getElementById('paneBody');
+  body.innerHTML = `
+    <h1>${overviewText(slug)[0]}</h1>
+    <div class="pane-meta">📋 종합 페이지 (overview)</div>
+    <div class="md">${stripFrontmatterAndRender(md)}</div>`;
+  openPaneShow();
+}
+
+function stripFrontmatterAndRender(md) {
+  if (md.startsWith('---')) {
+    const end = md.indexOf('\n---', 3);
+    if (end > 0) md = md.slice(end + 4);
+  }
+  // Convert [[wikilinks]] BEFORE marked, since marked doesn't know wiki syntax.
+  // Patterns: [[category/stem]] or [[stem]] or [[overviews/slug]] or [[slug|label]].
+  md = md.replace(/\[\[([^\[\]\n]+?)\]\]/g, (m, target) => {
+    let label = target;
+    if (target.includes('|')) {
+      [target, label] = target.split('|', 2);
+    }
+    target = target.trim();
+    label = label.trim();
+    let stem = target, isOverview = false;
+    if (target.startsWith('overviews/')) {
+      stem = target.slice('overviews/'.length);
+      isOverview = true;
+    } else if (target.includes('/')) {
+      stem = target.split('/').pop();
+    }
+    // Look up
+    if (isOverview) {
+      const ov = (state.data.overviews || []).find(o => o.slug === stem);
+      if (ov) return `<a href="#" class="wikilink" data-ov="${stem}">${escapeHtml(label)}</a>`;
+      return `<a class="wikilink broken" title="not found">${escapeHtml(label)}</a>`;
+    }
+    const it = state.data.items.find(x => x.stem === stem);
+    if (it && it.has_wiki) {
+      return `<a href="#" class="wikilink" data-key="${itemKey(it)}">${escapeHtml(label)}</a>`;
+    }
+    return `<a class="wikilink broken" title="wiki note not available">${escapeHtml(label)}</a>`;
+  });
+  return marked.parse(md);
+}
+
+function openPaneShow() {
+  document.getElementById('pane').classList.add('open');
+  document.getElementById('paneBg').classList.add('open');
+}
+function closePane() {
+  document.getElementById('pane').classList.remove('open');
+  document.getElementById('paneBg').classList.remove('open');
+}
+
+// ---- graph view ----
+
+function renderGraph() {
+  if (!state.data) return;
+  const nodes = [];
+  const edges = [];
+
+  for (const it of state.data.items) {
+    if (!it.has_wiki) continue;
+    const color = categoryColor(it.category);
+    const label = `${it.first} ${it.year}`;
+    nodes.push({
+      id: 'p:' + it.stem,
+      label,
+      title: it.display_title || it.title,
+      group: it.category,
+      color: { background: color, border: color, highlight: { background: color, border: '#fff' } },
+      font: { color: getComputedStyle(document.documentElement).getPropertyValue('--text').trim(), size: 13 },
+      shape: 'dot',
+      size: 14,
+      _kind: 'paper',
+      _key: itemKey(it),
+    });
+  }
+
+  if (state.showOverviewsInGraph) {
+    for (const ov of (state.data.overviews || [])) {
+      nodes.push({
+        id: 'o:' + ov.slug,
+        label: '📋 ' + ov.slug.replace(/-/g, ' '),
+        title: ov.slug,
+        color: { background: OVERVIEW_COLOR, border: '#000', highlight: { background: OVERVIEW_COLOR, border: '#fff' } },
+        font: { color: '#000', size: 12, face: 'inherit', strokeColor: 'rgba(255,255,255,0.7)', strokeWidth: 2 },
+        shape: 'box',
+        margin: 8,
+        _kind: 'overview',
+        _slug: ov.slug,
+      });
+    }
+  }
+
+  const nodeIds = new Set(nodes.map(n => n.id));
+  const edgeColor = getComputedStyle(document.documentElement).getPropertyValue('--border').trim();
+
+  for (const e of (state.data.edges || [])) {
+    const fid = 'p:' + e.from;
+    const tid = 'p:' + e.to;
+    if (nodeIds.has(fid) && nodeIds.has(tid)) {
+      edges.push({ from: fid, to: tid, color: { color: edgeColor, opacity: 0.7 }, arrows: 'to' });
+    }
+  }
+  if (state.showOverviewsInGraph) {
+    for (const e of (state.data.overview_edges || [])) {
+      const fid = (e.from_kind === 'overview' ? 'o:' : 'p:') + e.from;
+      const tid = (e.to_kind === 'overview' ? 'o:' : 'p:') + e.to;
+      if (nodeIds.has(fid) && nodeIds.has(tid)) {
+        edges.push({ from: fid, to: tid, color: { color: getComputedStyle(document.documentElement).getPropertyValue('--cat-overview').trim(), opacity: 0.5 }, arrows: 'to', dashes: true });
+      }
+    }
+  }
+
+  const container = document.getElementById('network');
+  if (state.network) state.network.destroy();
+  state.network = new vis.Network(container, { nodes, edges }, {
+    physics: {
+      barnesHut: { gravitationalConstant: -12000, springLength: 130, springConstant: 0.04, damping: 0.4 },
+      stabilization: { iterations: 200 },
+    },
+    interaction: { hover: true, tooltipDelay: 200 },
+    nodes: { borderWidth: 1 },
+    edges: { smooth: { type: 'dynamic' }, width: 1 },
+  });
+  state.network.on('click', params => {
+    if (!params.nodes.length) return;
+    const id = params.nodes[0];
+    const node = nodes.find(n => n.id === id);
+    if (!node) return;
+    if (node._kind === 'paper') openPane(node._key);
+    else if (node._kind === 'overview') openOverview(node._slug);
+  });
+}
+
+// ---- view switching ----
+
+function setView(v) {
+  state.view = v;
+  document.getElementById('list-view').style.display = (v === 'list') ? 'block' : 'none';
+  document.getElementById('graph-view').style.display = (v === 'graph') ? 'block' : 'none';
+  document.getElementById('graph-view').classList.toggle('active', v === 'graph');
+  document.getElementById('tab-list').classList.toggle('active', v === 'list');
+  document.getElementById('tab-graph').classList.toggle('active', v === 'graph');
+  if (v === 'graph') renderGraph();
+}
+
+document.getElementById('tab-list').onclick = () => setView('list');
+document.getElementById('tab-graph').onclick = () => setView('graph');
+document.getElementById('show-overviews').onchange = (e) => {
+  state.showOverviewsInGraph = e.target.checked;
+  if (state.view === 'graph') renderGraph();
+};
+document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; renderGrid(); });
+document.getElementById('note-toggle').addEventListener('click', e => {
+  if (e.target.tagName !== 'BUTTON') return;
+  state.note = e.target.dataset.v;
+  document.querySelectorAll('#note-toggle button').forEach(b => b.classList.toggle('active', b === e.target));
+  renderGrid();
+});
+document.getElementById('paneClose').onclick = closePane;
+document.getElementById('paneBg').onclick = closePane;
+
+// Wikilink click delegation (inside detail pane md)
+document.body.addEventListener('click', (e) => {
+  const a = e.target.closest('a.wikilink');
+  if (!a || a.classList.contains('broken')) return;
+  e.preventDefault();
+  if (a.dataset.key) openPane(a.dataset.key);
+  else if (a.dataset.ov) openOverview(a.dataset.ov);
+});
+
+loadData();
+</script>
+</body>
+</html>
