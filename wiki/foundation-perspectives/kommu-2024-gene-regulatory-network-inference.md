@@ -3,16 +3,14 @@ title: "scRegNet — sc-Foundation Model + GNN으로 GRN 추론 (Kommu 2024, bio
 authors: Kommu S, Wang Y (Yizhi), Wang Y (Yue), Wang X
 year: 2024
 journal: bioRxiv 2024.12.16.628715
-source: cui-2024-a-survey-on-the-application.md
+source: kommu-2024-gene-regulatory-network-inference.md
 category: foundation-perspectives
 tags: [single-cell, foundation-model, GRN, GNN, scBERT, Geneformer, scFoundation, application-survey]
 ---
 
-> **파일명 주의**: stem은 `cui-2024-a-survey-on-the-application`이지만, 실제 보유 PDF는 Kommu et al. 2024 scRegNet(bioRxiv 2024.12.16.628715)입니다. 이 노트는 실제 PDF를 기준으로 정리했습니다. 엄격한 stem 일치를 원하면 운영자 검토 후 `kommu-2024-...`로 rename하는 편이 맞습니다.
-
 ## 요약
 
-scRegNet은 사전학습된 single-cell foundation model(scBERT, Geneformer, scFoundation)의 임베딩과 prior GRN 그래프에서 학습한 GNN 임베딩을 **결합**해, GRN 추론을 link prediction 문제로 푸는 supervised 방법이다. BEELINE 벤치마크 7종(인간/마우스 다양 cell type)에서 9개 baseline을 모두 능가, **Geneformer 백본**이 가장 강력(+8% AUROC, +13–17% AUPRC over best graph baseline). 본 위키에서 이 논문은 sc-FM "**활용·비교 perspective**" 자리(Cui 2024 survey 위치)에 보관되어 있으며, 실제 PDF는 Kommu 2024 scRegNet 논문이다(파일명 stem mismatch 주석은 source 프론트매터 참조).
+scRegNet은 사전학습된 single-cell foundation model(scBERT, Geneformer, scFoundation)의 임베딩과 prior GRN 그래프에서 학습한 GNN 임베딩을 **결합**해, GRN 추론을 link prediction 문제로 푸는 supervised 방법이다. BEELINE 벤치마크 7종(인간/마우스 다양 cell type)에서 9개 baseline을 모두 능가, **Geneformer 백본**이 가장 강력(+8% AUROC, +13–17% AUPRC over best graph baseline). 본 위키에서 이 논문은 sc-FM을 실제 생물학 문제에 활용하는 관점, 즉 single-cell foundation model embedding을 GRN 추론에 연결하는 사례로 읽는다.
 
 ## 핵심 주장
 
@@ -118,4 +116,3 @@ scRNA-seq (N×T)                                    Prior GRN (TF→target edges
 
 ## 위키 운영자 메모
 
-> 파일명 `cui-2024-a-survey-on-the-application` 은 본래 Cui et al. survey 논문 자리로 예정되었으나, 현재 papers/ 폴더의 PDF는 Kommu et al. 2024 (scRegNet, bioRxiv 2024.12.16.628715)이다. 위 문서는 실제 보유한 PDF 내용 그대로를 기록한 것이며, 진짜 Cui survey가 추후 입수되면 stem `kommu-2024-gene-regulatory-network-inference`로 재명명하고 별도 source/wiki 분리 권장.

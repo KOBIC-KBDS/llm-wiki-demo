@@ -146,7 +146,7 @@ DNA/RNA 흐름은 **짧은 서열 언어모델 → 긴 genome 문맥 → 조절 
 
 [[medical-foundation/topol-2019-high-performance-medicine-the-convergence]]는 AI와 human intelligence가 결합되는 high-performance medicine을 큰 의제로 놓는다. [[medical-foundation/singhal-2023-towards-expert-level-medical-question]]는 Med-PaLM으로 medical QA에서 LLM의 clinical knowledge encoding을 평가하고, [[medical-foundation/saab-2024-capabilities-of-gemini-models-in]]는 Med-Gemini로 multimodal medical reasoning과 long-context clinical tasks를 확장한다. [[medical-foundation/sellergren-2025-medgemma-open-medical-foundation-models]]는 open medical foundation model 흐름을 담당한다.
 
-병리 쪽은 [[medical-foundation/lu-2024-a-visual-language-foundation-model]]의 CONCH가 기준점이다. 이 note는 계산병리용 visual-language foundation model로, 조직 이미지·공간 전사체와 의료 모델 사이의 연결점이 된다. Foundation perspective category의 [[foundation-perspectives/moor-2023-foundation-models-for-generalist-medical]]와 [[foundation-perspectives/truhn-2024-a-foundation-model-for-clinical]]도 의료 generalist와 computational pathology의 개념적 기준점으로 읽힌다.
+병리 쪽은 [[medical-foundation/lu-2024-a-visual-language-foundation-model]]의 CONCH가 기준점이다. 이 note는 계산병리용 visual-language foundation model로, 조직 이미지·공간 전사체와 의료 모델 사이의 연결점이 된다. Foundation perspective category의 [[foundation-perspectives/moor-2023-foundation-models-for-generalist-medical]]와 [[foundation-perspectives/chen-2024-towards-a-general-purpose-foundation]]도 의료 generalist와 computational pathology의 개념적 기준점으로 읽힌다.
 
 ## G. ★★★ 기반모델 일반론
 
@@ -154,7 +154,7 @@ DNA/RNA 흐름은 **짧은 서열 언어모델 → 긴 genome 문맥 → 조절 
 
 [[foundation-perspectives/vaswani-2017-attention-is-all-you-need]]는 모델 구조의 출발점이고, [[foundation-perspectives/bommasani-2021-on-the-opportunities-and-risks]]는 foundation model이라는 용어와 사회·기술적 위험/기회 프레임을 제공한다. [[foundation-perspectives/wang-2023-scientific-discovery-in-the-age]]는 AI for Science 전체 분류 체계를 제공한다.
 
-의료 쪽 큰 개념은 [[foundation-perspectives/moor-2023-foundation-models-for-generalist-medical]]가 GMAI로 잡고, single-cell 쪽 reflection은 [[foundation-perspectives/theodoris-2025-foundation-models-in-single-cell]]가 benchmarking 관점에서 정리한다. 단, [[foundation-perspectives/cui-2024-a-survey-on-the-application]]와 [[foundation-perspectives/truhn-2024-a-foundation-model-for-clinical]]는 stem과 실제 PDF 내용이 맞지 않는 상태다. 현재 파일 내용은 각각 Kommu 2024 scRegNet과 Chen 2024 UNI로 정리되어 있으므로, stem rename 또는 top-of-file warning이 필요한 manual review 대상이다.
+의료 쪽 큰 개념은 [[foundation-perspectives/moor-2023-foundation-models-for-generalist-medical]]가 GMAI로 잡고, single-cell 쪽 reflection은 [[foundation-perspectives/theodoris-2025-foundation-models-in-single-cell]]가 benchmarking 관점에서 정리한다. [[foundation-perspectives/kommu-2024-gene-regulatory-network-inference]]는 sc-FM embedding을 GRN 추론에 쓰는 활용 사례로, [[foundation-perspectives/chen-2024-towards-a-general-purpose-foundation]]는 computational pathology에서 foundation model scaling이 성립하는 사례로 연결된다.
 
 ## 개념적 핵심
 

@@ -847,13 +847,13 @@
       "collection": "bio-foundation",
       "id": 43,
       "year": 2024,
-      "first": "Cui H",
-      "title": "A survey on the application of foundation models for single-cell omics",
+      "first": "Kommu S",
+      "title": "Gene Regulatory Network Inference with Joint Representation from Graph Neural Network and Single-Cell Foundation Model",
       "display_title": "Gene Regulatory Network Inference with Joint Representation from Graph Neural Network and Single-Cell Foundation Model (scRegNet)",
-      "journal": "preprint / Nat Methods perspective",
+      "journal": "bioRxiv",
       "doi": "10.1101/2024.12.16.628715",
       "publisher_url": null,
-      "stem": "cui-2024-a-survey-on-the-application",
+      "stem": "kommu-2024-gene-regulatory-network-inference",
       "category": "foundation-perspectives",
       "weight": 1,
       "has_pdf": false,
@@ -867,13 +867,13 @@
       "collection": "bio-foundation",
       "id": 44,
       "year": 2024,
-      "first": "Truhn D",
-      "title": "A foundation model for clinical-grade computational pathology and rare cancers (review)",
+      "first": "Chen RJ",
+      "title": "Towards a general-purpose foundation model for computational pathology",
       "display_title": "Towards a general-purpose foundation model for computational pathology (UNI)",
-      "journal": "Nature Medicine 2024",
+      "journal": "Nature Medicine",
       "doi": "10.1038/s41591-024-02857-3",
       "publisher_url": null,
-      "stem": "truhn-2024-a-foundation-model-for-clinical",
+      "stem": "chen-2024-towards-a-general-purpose-foundation",
       "category": "foundation-perspectives",
       "weight": 1,
       "has_pdf": false,
@@ -1764,43 +1764,43 @@
       "to_kind": "paper"
     },
     {
-      "from": "cui-2024-a-survey-on-the-application",
+      "from": "kommu-2024-gene-regulatory-network-inference",
       "from_kind": "paper",
       "to": "theodoris-2025-foundation-models-in-single-cell",
       "to_kind": "paper"
     },
     {
-      "from": "cui-2024-a-survey-on-the-application",
+      "from": "kommu-2024-gene-regulatory-network-inference",
       "from_kind": "paper",
       "to": "wang-2023-scientific-discovery-in-the-age",
       "to_kind": "paper"
     },
     {
-      "from": "cui-2024-a-survey-on-the-application",
+      "from": "kommu-2024-gene-regulatory-network-inference",
       "from_kind": "paper",
       "to": "theodoris-2023-transfer-learning-enables-predictions-in",
       "to_kind": "paper"
     },
     {
-      "from": "cui-2024-a-survey-on-the-application",
+      "from": "kommu-2024-gene-regulatory-network-inference",
       "from_kind": "paper",
       "to": "cui-2024-scgpt-toward-building-a-foundation",
       "to_kind": "paper"
     },
     {
-      "from": "cui-2024-a-survey-on-the-application",
+      "from": "kommu-2024-gene-regulatory-network-inference",
       "from_kind": "paper",
       "to": "hao-2024-large-scale-foundation-model-on",
       "to_kind": "paper"
     },
     {
-      "from": "cui-2024-a-survey-on-the-application",
+      "from": "kommu-2024-gene-regulatory-network-inference",
       "from_kind": "paper",
       "to": "boiarsky-2025-sctab-benchmark-for-single-cell",
       "to_kind": "paper"
     },
     {
-      "from": "cui-2024-a-survey-on-the-application",
+      "from": "kommu-2024-gene-regulatory-network-inference",
       "from_kind": "paper",
       "to": "kedzierska-2025-assessing-the-limits-of-zero",
       "to_kind": "paper"
@@ -1844,7 +1844,7 @@
     {
       "from": "moor-2023-foundation-models-for-generalist-medical",
       "from_kind": "paper",
-      "to": "truhn-2024-a-foundation-model-for-clinical",
+      "to": "chen-2024-towards-a-general-purpose-foundation",
       "to_kind": "paper"
     },
     {
@@ -1914,43 +1914,43 @@
       "to_kind": "paper"
     },
     {
-      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from": "chen-2024-towards-a-general-purpose-foundation",
       "from_kind": "paper",
       "to": "lu-2024-a-visual-language-foundation-model",
       "to_kind": "paper"
     },
     {
-      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from": "chen-2024-towards-a-general-purpose-foundation",
       "from_kind": "paper",
       "to": "saab-2024-capabilities-of-gemini-models-in",
       "to_kind": "paper"
     },
     {
-      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from": "chen-2024-towards-a-general-purpose-foundation",
       "from_kind": "paper",
       "to": "sellergren-2025-medgemma-open-medical-foundation-models",
       "to_kind": "paper"
     },
     {
-      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from": "chen-2024-towards-a-general-purpose-foundation",
       "from_kind": "paper",
       "to": "bommasani-2021-on-the-opportunities-and-risks",
       "to_kind": "paper"
     },
     {
-      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from": "chen-2024-towards-a-general-purpose-foundation",
       "from_kind": "paper",
       "to": "moor-2023-foundation-models-for-generalist-medical",
       "to_kind": "paper"
     },
     {
-      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from": "chen-2024-towards-a-general-purpose-foundation",
       "from_kind": "paper",
       "to": "vaswani-2017-attention-is-all-you-need",
       "to_kind": "paper"
     },
     {
-      "from": "truhn-2024-a-foundation-model-for-clinical",
+      "from": "chen-2024-towards-a-general-purpose-foundation",
       "from_kind": "paper",
       "to": "jaume-2024-hest-1k-a-dataset-for",
       "to_kind": "paper"
@@ -3794,7 +3794,7 @@
     {
       "from": "bio-foundation-flow",
       "from_kind": "overview",
-      "to": "truhn-2024-a-foundation-model-for-clinical",
+      "to": "chen-2024-towards-a-general-purpose-foundation",
       "to_kind": "paper"
     },
     {
@@ -3806,7 +3806,7 @@
     {
       "from": "bio-foundation-flow",
       "from_kind": "overview",
-      "to": "cui-2024-a-survey-on-the-application",
+      "to": "kommu-2024-gene-regulatory-network-inference",
       "to_kind": "paper"
     },
     {

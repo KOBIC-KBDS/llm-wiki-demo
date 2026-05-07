@@ -58,8 +58,8 @@
 ## Foundation 일반론 (7)
 
 - ★ [Theodoris CV 2025: Perspectives on benchmarking foundation models for network biology](wiki/foundation-perspectives/theodoris-2025-foundation-models-in-single-cell.md) — _perspective 2024-25_
-- ★ [Truhn D 2024: Towards a general-purpose foundation model for computational pathology (UNI)](wiki/foundation-perspectives/truhn-2024-a-foundation-model-for-clinical.md) — _Nature Medicine 2024_
-- ★ [Cui H 2024: Gene Regulatory Network Inference with Joint Representation from Graph Neural Network and Single-Cell Foundation Model (scRegNet)](wiki/foundation-perspectives/cui-2024-a-survey-on-the-application.md) — _preprint / Nat Methods perspective_
+- ★ [Kommu S 2024: Gene Regulatory Network Inference with Joint Representation from Graph Neural Network and Single-Cell Foundation Model (scRegNet)](wiki/foundation-perspectives/kommu-2024-gene-regulatory-network-inference.md) — _bioRxiv_
+- ★ [Chen RJ 2024: Towards a general-purpose foundation model for computational pathology (UNI)](wiki/foundation-perspectives/chen-2024-towards-a-general-purpose-foundation.md) — _Nature Medicine_
 - ★ [Wang H 2023: Scientific discovery in the age of artificial intelligence](wiki/foundation-perspectives/wang-2023-scientific-discovery-in-the-age.md) — _Nature_
 - ★ [Moor M 2023: Foundation models for generalist medical artificial intelligence](wiki/foundation-perspectives/moor-2023-foundation-models-for-generalist-medical.md) — _Nature_
 - ★ [Bommasani R 2021: On the Opportunities and Risks of Foundation Models](wiki/foundation-perspectives/bommasani-2021-on-the-opportunities-and-risks.md) — _Stanford preprint / arXiv_

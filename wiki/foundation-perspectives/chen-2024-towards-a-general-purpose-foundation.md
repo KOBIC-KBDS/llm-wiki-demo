@@ -3,18 +3,14 @@ title: "UNI — 임상 병리 H&E 영상의 범용 Foundation Model (Chen 2024, 
 authors: Chen RJ, Ding T, Lu MY, Williamson DFK, ..., Mahmood F*
 year: 2024
 journal: Nature Medicine 30:850-862
-source: truhn-2024-a-foundation-model-for-clinical.md
+source: chen-2024-towards-a-general-purpose-foundation.md
 category: foundation-perspectives
 tags: [computational-pathology, foundation-model, vision-transformer, DINOv2, WSI, OncoTree, clinical]
 ---
 
-> **파일명 주의**: stem은 `truhn-2024-a-foundation-model-for-clinical`이지만, 실제 보유 PDF는 Chen et al. 2024 UNI(Nature Medicine, DOI 10.1038/s41591-024-02857-3)입니다. 이 노트는 실제 PDF를 기준으로 정리했습니다. 엄격한 stem 일치를 원하면 운영자 검토 후 `chen-2024-...`로 rename하는 편이 맞습니다.
-
 ## 요약
 
 UNI는 **Mass-100K**(MGH/BWH/GTEx 출처 100,426개 H&E WSI에서 추출한 1억 개 이상 타일, 20개 장기)에 **DINOv2** 자기지도 학습으로 사전훈련된 ViT-Large 영상 인코더다. **34개 임상 병리 task**(ROI 분류·분할·검색·슬라이드 단위 분류 — 특히 108-class OncoTree 범암 분류 OT-108 포함)에서 CTransPath, REMEDIS, ImageNet ResNet-50 모든 baseline을 능가. 데이터 규모(1K → 22K → 100K WSI)와 모델 크기(ViT-B → L) 두 축 모두에서 단조적 성능 향상, 즉 **CPath에서도 scaling law가 성립**함을 입증. 새 능력으로 *resolution-agnostic 분류*와 *few-shot class prototype prompting*을 보여준다.
-
-> **파일명 주의**: 본 위키 stem이 `truhn-2024-...`이지만, 실제 PDF 내용은 Chen et al.의 UNI(Nat Med 2024) 논문이다. CLAUDE.md 규칙대로 실제 보유 자료를 그대로 정리.
 
 ## 핵심 주장
 

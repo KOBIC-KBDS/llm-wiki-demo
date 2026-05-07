@@ -72,7 +72,7 @@ tags: [foundation-model, medical-AI, GMAI, multimodal, perspective, Nature]
 - [[medical-foundation/saab-2024-capabilities-of-gemini-models-in]] :extends — Med-Gemini가 multimodal/long-context medical reasoning으로 확장.
 - [[medical-foundation/sellergren-2025-medgemma-open-medical-foundation-models]] :extends — open medical foundation model 흐름.
 - [[medical-foundation/lu-2024-a-visual-language-foundation-model]] :supports — 병리 vision-language foundation model 사례.
-- [[foundation-perspectives/truhn-2024-a-foundation-model-for-clinical]] :supports — UNI pathology foundation model 사례.
+- [[foundation-perspectives/chen-2024-towards-a-general-purpose-foundation]] :supports — UNI pathology foundation model 사례.
 
 ## 용어집
 
